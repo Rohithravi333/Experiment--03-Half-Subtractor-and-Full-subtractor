@@ -50,6 +50,7 @@ endmodule
 ```
 
 FULL SUBTRACTOR:
+```
 module fullsub(a,b,c,diff,borrow);
 input a,b,c;
 output borrow,diff;
@@ -62,6 +63,7 @@ and(s,a,b);
 and(t,q,cn);
 or(borrow,s,t);
 endmodule
+```
 ## Output:
 
 
