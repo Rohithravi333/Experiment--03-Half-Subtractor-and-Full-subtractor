@@ -37,7 +37,8 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 Developed by: rohith 
 RegisterNumber:212222230121 
 */
-HALF SUBTRACTOR:
+
+### HALF SUBTRACTOR:
 ```
 module halfsub(a,b,diff,borrow);
 input a,b;
@@ -49,7 +50,7 @@ and(borrow,x,b);
 endmodule
 ```
 
-FULL SUBTRACTOR:
+### FULL SUBTRACTOR:
 ```
 module fullsub(a,b,c,diff,borrow);
 input a,b,c;
