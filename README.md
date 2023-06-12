@@ -38,6 +38,7 @@ Developed by: rohith
 RegisterNumber:212222230121 
 */
 HALF SUBTRACTOR:
+```
 module halfsub(a,b,diff,borrow);
 input a,b;
 output diff,borrow;
@@ -46,7 +47,7 @@ xor(diff,a,b);
 not(x,a);
 and(borrow,x,b);
 endmodule
-
+```
 
 FULL SUBTRACTOR:
 module fullsub(a,b,c,diff,borrow);
